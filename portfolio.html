@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header>
+    <header class="header">
       <div class="container nav-container">
         <nav class="nav">
           <a class="logo" href="/">Web<span class="logo-color">Studio</span></a>
@@ -40,101 +40,127 @@
     </header>
     <main>
       <section class="section">
-        <h1 class="visually-hidden">Фільтр</h1>
-        <ul class="filter container">
-          <li class="filter-item"><button class="button" type="button">Усі</button></li>
-          <li class="filter-item"><button class="button" type="button">Веб-сайти</button></li>
-          <li class="filter-item"><button class="button" type="button">Додатки</button></li>
-          <li class="filter-item"><button class="button" type="button">Дизайн</button></li>
-          <li class="filter-item"><button class="button" type="button">Маркетинг</button></li>
-        </ul>
-        <ul class="works container">
-          <li class="list-works-item">
-            <img
-              class="img"
-              src="images/img1(3).jpg"
-              alt="Макбук з відкритим сайтом"
-              width="370"
-              height="294"
-            />
-            <h2 class="list-works-title">Технокряк</h2>
-            <p class="list-works-text">Веб-сайт</p>
-          </li>
-          <li class="list-works-item">
-            <img class="img" src="images/img2(3).jpg" alt="Знамениті баскеболісти" height="294" />
-            <h2 class="list-works-title">Постер New Orlean vs Golden Star</h2>
-            <p class="list-works-text">Дизайн</p>
-          </li>
-          <li class="list-works-item">
-            <img
-              class="img"
-              src="images/img3(3).jpg"
-              alt="Логотип ресторану"
-              width="370"
-              height="294"
-            />
-            <h2 class="list-works-title">Ресторан Seafood</h2>
-            <p class="list-works-text">Додаток</p>
-          </li>
-          <li class="list-works-item">
-            <img class="img" src="images/img4(3).jpg" alt="Навушники" width="370" height="294" />
-            <h2 class="list-works-title">Проєкт Prime</h2>
-            <p class="list-works-text">Маркетинг</p>
-          </li>
-          <li class="list-works-item">
-            <img class="img" src="images/img5(3).jpg" alt="Дві коробки" width="370" height="294" />
-            <h2 class="list-works-title">Проєкт Boxes</h2>
-            <p class="list-works-text">Додаток</p>
-          </li>
-          <li class="list-works-item">
-            <img
-              class="img"
-              src="images/img6(3).jpg"
-              alt="Монітор з відкритим сайтом"
-              width="370"
-              height="294"
-            />
-            <h2 class="list-works-title">Inspiration has no Borders</h2>
-            <p class="list-works-text">Веб-сайт</p>
-          </li>
-          <li class="list-works-item">
-            <img
-              class="img"
-              src="images/img7(3).jpg"
-              alt="Відкритий журнал"
-              width="370"
-              height="294"
-            />
-            <h2 class="list-works-title">Видання Limited Edition</h2>
-            <p class="list-works-text">Дизайн</p>
-          </li>
-          <li class="list-works-item">
-            <img
-              class="img"
-              src="images/img8(3).jpg"
-              alt="Етікетка на мотузці"
-              width="370"
-              height="294"
-            />
-            <h2 class="list-works-title">Проєкт LAB</h2>
-            <p class="list-works-text">Маркетинг</p>
-          </li>
-          <li class="list-works-item">
-            <img
-              class="img"
-              src="images/img9(3).jpg"
-              alt="Людина працює за ноутбуком"
-              width="370"
-              height="294"
-            />
-            <h2 class="list-works-title">Growing Business</h2>
-            <p class="list-works-text">Додаток</p>
-          </li>
-        </ul>
+        <div class="container">
+          <h1 class="visually-hidden">Фільтр</h1>
+          <ul class="filter">
+            <li class="filter-item"><button class="button" type="button">Усі</button></li>
+            <li class="filter-item"><button class="button" type="button">Веб-сайти</button></li>
+            <li class="filter-item"><button class="button" type="button">Додатки</button></li>
+            <li class="filter-item"><button class="button" type="button">Дизайн</button></li>
+            <li class="filter-item"><button class="button" type="button">Маркетинг</button></li>
+          </ul>
+          <ul class="works">
+            <li class="list-works-item">
+              <img
+                class="img"
+                src="images/img1(3).jpg"
+                alt="Макбук з відкритим сайтом"
+                width="370"
+                height="294"
+              />
+              <div class="description-works">
+                <h2 class="list-works-title">Технокряк</h2>
+                <p class="list-works-text">Веб-сайт</p>
+              </div>
+            </li>
+            <li class="list-works-item">
+              <img class="img" src="images/img2(3).jpg" alt="Знамениті баскеболісти" height="294" />
+              <div class="description-works">
+                <h2 class="list-works-title">Технокряк</h2>
+                <p class="list-works-text">Веб-сайт</p>
+              </div>
+            </li>
+            <li class="list-works-item">
+              <img
+                class="img"
+                src="images/img3(3).jpg"
+                alt="Логотип ресторану"
+                width="370"
+                height="294"
+              />
+              <div class="description-works">
+                <h2 class="list-works-title">Ресторан Seafood</h2>
+                <p class="list-works-text">Додаток</p>
+              </div>
+            </li>
+            <li class="list-works-item">
+              <img class="img" src="images/img4(3).jpg" alt="Навушники" width="370" height="294" />
+              <div class="description-works">
+                <h2 class="list-works-title">Проєкт Prime</h2>
+                <p class="list-works-text">Маркетинг</p>
+              </div>
+            </li>
+            <li class="list-works-item">
+              <img
+                class="img"
+                src="images/img5(3).jpg"
+                alt="Дві коробки"
+                width="370"
+                height="294"
+              />
+              <div class="description-works">
+                <h2 class="list-works-title">Проєкт Boxes</h2>
+                <p class="list-works-text">Додаток</p>
+              </div>
+            </li>
+            <li class="list-works-item">
+              <img
+                class="img"
+                src="images/img6(3).jpg"
+                alt="Монітор з відкритим сайтом"
+                width="370"
+                height="294"
+              />
+              <dev class="description-works">
+                <h2 class="list-works-title">Inspiration has no Borders</h2>
+                <p class="list-works-text">Веб-сайт</p>
+              </dev>
+            </li>
+            <li class="list-works-item">
+              <img
+                class="img"
+                src="images/img7(3).jpg"
+                alt="Відкритий журнал"
+                width="370"
+                height="294"
+              />
+              <div class="description-works">
+                <h2 class="list-works-title">Видання Limited Edition</h2>
+                <p class="list-works-text">Дизайн</p>
+              </div>
+            </li>
+            <li class="list-works-item">
+              <img
+                class="img"
+                src="images/img8(3).jpg"
+                alt="Етікетка на мотузці"
+                width="370"
+                height="294"
+              />
+              <div class="description-works">
+                <h2 class="list-works-title">Проєкт LAB</h2>
+                <p class="list-works-text">Маркетинг</p>
+              </div>
+            </li>
+            <li class="list-works-item">
+              <img
+                class="img"
+                src="images/img9(3).jpg"
+                alt="Людина працює за ноутбуком"
+                width="370"
+                height="294"
+              />
+              <div class="description-works">
+                <h2 class="list-works-title">Growing Business</h2>
+                <p class="list-works-text">Додаток</p>
+              </div>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
-    <footer>
-      <div class="container footer-content">
+    <footer class="footer-content">
+      <div class="container">
         <a class="logo" href="/">Web<span class="logo-footer-color">Studio</span></a>
         <address class="footer-contacts">
           <ul class="footer-info">
