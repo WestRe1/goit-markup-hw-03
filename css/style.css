@@ -169,7 +169,13 @@ img {
         max-width: 700px;
 }
 /* Feature */
-
+.list-item {
+    width: 270px;
+    margin-left: 30px;
+}
+.list-item:first-child {
+    margin-left: 0;
+}
 .list-title {
         font-weight: 700;
         font-size: 14px;
