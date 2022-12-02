@@ -199,12 +199,7 @@ img {
     padding-left: 0;
     gap: 30px;
 }
-.list-work-item {
-    margin-left: 30px;
-}
-.list-work-item:first-child {
-    margin-left: 0;
-}
+
 /* Team */
 .section-team {
     background-color: var(--section-team-bg-color);
@@ -349,6 +344,7 @@ img {
     cursor: pointer;
     padding: 10px 32px;
     background-color: var(--accent-color);
+    color: var(--main-light-color);
 }
 .button:hover,
 .button:focus {
@@ -360,7 +356,7 @@ img {
 .button-hero:hover,
 .button-hero:focus {
     background-color: var(--accent-color-hero-button);
-    color: var(--main-light-color);
+    
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     padding: 10px 32px;
 }
